@@ -1,0 +1,49 @@
+@media screen and (max-width:1920px){
+    .movie-list-item-img {
+        width: 437px;
+        height: 300px;
+}
+.navbar {
+    height: 60px;
+}
+}
+@media screen and (max-width: 1700px){
+.movie-list-item-img {
+    width: 300px;
+    height: 211px;
+}
+}
+@media screen and (max-width:900px){
+    .menu-list li {
+        display: none;
+    }
+    .profile-container {
+        justify-content: flex-start;
+        flex: 10;
+    }
+    .ham{
+        display:flex;
+        justify-content: flex-end;
+    }
+       .nav-items{
+        top: 0%;
+        left: 0%;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        background-color: rgb(218, 21, 21);
+        z-index: 1;
+       
+    }   
+    .ham{
+        position: relative;
+        z-index: 2;
+     
+    }
+}
+    
+
+
+
+
+
